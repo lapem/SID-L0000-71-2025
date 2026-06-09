@@ -48,5 +48,21 @@ namespace ApiClientLibrary.Services
             var response = await _httpClient.PostAsync("EstadoSID", content);
             return response;
         }
+
+        public async Task<HttpResponseMessage> RegistrarNormaSID(NormaDTO norma)
+        {
+            var json = JsonSerializer.Serialize(norma);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await _httpClient.PostAsync("Norma", content);
+            return response;
+        }
+
+        public async Task<HttpResponseMessage> RegistrarPrototipo(PrototipoDTO data)
+        {
+            var json = JsonSerializer.Serialize(data);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await _httpClient.PostAsync("Prototipo", content);
+            return response;
+        }
     }
 }

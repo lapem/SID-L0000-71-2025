@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClientLibrary", "ApiClie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClientTest", "ApiClientTest\ApiClientTest.csproj", "{11574F44-D2F3-4137-9239-681FD6B7CEEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticaPrototipo", "PracticaPrototipo\PracticaPrototipo.csproj", "{4D78D4C9-25E1-4505-9DA8-6642FFAB4E39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{11574F44-D2F3-4137-9239-681FD6B7CEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11574F44-D2F3-4137-9239-681FD6B7CEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11574F44-D2F3-4137-9239-681FD6B7CEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D78D4C9-25E1-4505-9DA8-6642FFAB4E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D78D4C9-25E1-4505-9DA8-6642FFAB4E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D78D4C9-25E1-4505-9DA8-6642FFAB4E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D78D4C9-25E1-4505-9DA8-6642FFAB4E39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
